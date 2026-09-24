@@ -19,16 +19,21 @@
 
 #### ***Introducción***. <a name="id1"></a>
 
-Aquí explicamos brevemente la parte teórica que tiene que ver con la práctica que se va a realizar
+Para esta actividad hemos investigado los comandos y las utilizaciones de Git y GitHub, y se utiliza cualquier editor de texto  para los cambios en local y sobre todo la preparación y distribución de trabajo debían estar listos antes de empezar.
 
 #### ***Objetivos***. <a name="id2"></a>
 
-Aquí explicamos los objetivos que se pretenden alcanzar al realizar la práctica.
+Aprender a utilizar GitHub y Git, manejar el control de errore y trabajar en equipo. 
 
 #### ***Material empleado***. <a name="id3"></a>
-
-Enumeramos el material empleado tanto hardware como software y las conficuraciones que hacemos (configuraciones de red por ejemplo) 
-
+- Ratón
+- Teclado
+- Portátil
+- VSCode
+- CMD
+- Git
+- Navegador Web (LibreWolf)
+- GitHub
 #### ***Desarrollo***. <a name="id4"></a>
 
 En esta parte explicamos detalladamente los pasos que seguimos para realizar la práctica incluyendo capturas de pantalla y explicando que vemos en ellas. 
