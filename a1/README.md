@@ -128,3 +128,5 @@ git push origin 0.1.0
 Las dificultades que tuvimos fueron realmete por la falta de entendimiento de pasos como el 9, 10 y 11, porque habían muchas maneras de poder hacerlo y no teníamos clara cual se pedía. Simplemente avanzamos como creímos mejor y seguimos con el resto de pasos.
 #### ***Conclusiones***. <a name="id5"></a>
 
+Esta práctica nos ha enseñado que trabajar con Git y GitHub en equipo no es solo cuestión de código, sino de **organización y comunicación**. Aunque al principio costó entender algunos pasos, como resolver conflictos o gestionar PRs, al final vimos lo útil que es planificar antes de empezar y coordinarse con el equipo.
+
