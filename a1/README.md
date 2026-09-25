@@ -46,13 +46,19 @@ Clonamos con git clone https://github.com/ASC-MAKER/gitwork.git
 Se creó desde la interfaz web de GitHub
 
 4.- user2 clonará su fork del repo.  
-Clonado con éxito dede GitHub
+Clonado con éxito dede GitHub  
+git clone https://github.com/Sunhee02/git-work.git  
+cd git-work/  
+git remote add upstream https://github.com/ASC-MAKER/git-work.git  
+git remote -v  
 
 5.- user1 creará una issue con el título "Add custom text for startup contents".  
 Creado desde GitHub y subido en img, aunque también se podía usar gh pr con GitHub CLI instalado
 
 6.- user2 creará una nueva rama custom-text y modificará el fichero index.html personalizándolo para una supuesta startup.  
-Creada desde GitHub web y modificado con el editor de GitHub.
+Creada desde GitHub web y modificado con el editor de GitHub.  
+git checkout -b custom-text  
+code index.html  
 
 7.- user2 enviará un PR a user1.  
 Enviado desde interfaz web
@@ -66,15 +72,25 @@ Se creó y subió con éxito utilizando GitHub
 Se aprobó con exito y se actualizó la rama en la copia local usando git pull
 
 11.- user2 deberá incorporar los cambios de la rama principal de upstream en su propia rama principal.  
+Se utilizaron los siguientes comandos:  
+git checkout main  
+git pull upstream main  
+git push origin main  
 
 12.- user1 creará una issue con el título "Improve UX with cool colors".  
+Se creo la issue desde entorno grafico  
 
 13.- user1 cambiará la línea 10 de cover.css a: color: purple;  
+Se modifico la línea  
 
 14.- user1 hará simplemente un commit local en main → NO HACER git push.  
+Se hiso un commit  
 
 15.- user2 creará una nueva rama cool-colors y cambiará la línea 10 de cover.css a: color: darkgreen;  
-
+Se utilizaron los siguientes comandos:  
+git checkout main  
+git checkout -b cool-colors  
+code cover.css  
 16.- user2 enviará un PR a user1.  
 
 17.- user1 probará el PR de user2 (en su copia local). A continuación tratará de mergear el contenido de la rama cool-colors en su rama principal y tendrá que gestionar el conflicto: Dejar el contenido que viene de user2.  
@@ -112,4 +128,3 @@ git push origin 0.1.0
 Las dificultades que tuvimos fueron realmete por la falta de entendimiento de pasos como el 9, 10 y 11, porque habían muchas maneras de poder hacerlo y no teníamos clara cual se pedía. Simplemente avanzamos como creímos mejor y seguimos con el resto de pasos.
 #### ***Conclusiones***. <a name="id5"></a>
 
-En esta parte debemos exponer las conclusiones que sacamos del desarrollo de la prácica.
